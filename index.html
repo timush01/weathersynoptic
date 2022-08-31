@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="./style.css">
+    <title>Weather</title>
+</head>
+<body>
+
+<div class="container">
+    <h1>Прогноз погоды для любой точки мира</h1>
+    <div class="line"></div>
+    <input id="search" type="text" placeholder="Напишите страну" name="city">
+    <button id="btnSearch">Поиск</button>
+<div class="change" id="weather">
+    <div class="info">Место: <span id="Region">0</span></div>
+    <div class="info">Температура воздуха: <span id="temperature-Kharkiv">0</span> °C</div>
+    <div class="info">Облачность над городом: <span id="cloudy-Kharkiv">0</span></div>
+    <div class="info">Скорость ветра: <span id="wiatr-Kharkiv">0 km/h</span></div>
+</div>
+    <h5>source: <a href="https://openweathermap.org/" >OpenWeather</a></h5>
+</div>
+
+<script src="./render.js"></script>
+</body>
+</html>
